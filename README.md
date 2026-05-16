@@ -21,7 +21,7 @@ The dataset used is `customer_churn_nn.csv`. It contains features like customer 
 2. Ensure `customer_churn_nn.csv` is in the root directory.
 3. Run `notebook.ipynb` cell by cell.
 
-Task 6: Final Reflection
+## Task 6: Final Reflection
 What role do weights and biases play in the model?
 Basically, weights determine how much importance the network gives to a specific input feature. For example, the model probably assigns a larger weight to a feature like monthly_charges than it does to region when trying to predict if someone will churn. Biases act like the y-intercept in a math equation—they allow the activation function to shift left or right, making sure the model can still output a baseline prediction even if all the input features happen to be zero.
 
